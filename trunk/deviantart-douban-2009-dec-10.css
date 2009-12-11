@@ -3,7 +3,7 @@
  * *
  * * Author : mvj3
  * * Created : 15th Sep, 2007
- * * Updated : 10th Dec, 2009
+ * * Updated : 11th Dec, 2009
  * * Version :2.2.1
  * * Website : http://code.google.com/p/deviantart-douban/
  * * Description : Skins douban.com with deviantART appearance.
@@ -267,9 +267,10 @@ input:not([type="submit"]) {
 
 /**********************************/
 /*location background color fixes*/
-#in_tables, #tablers ,#in_tablen ,#tablern, .article, .aside, #profile {
+#in_tables, #tablers ,#in_tablen ,#tablern, .article, .aside, #profile, table {
   background: #E7F0EC !important;
-  -moz-border-radius: 5px ! important;
+  -moz-border-radius: 5px !important;
+  padding:5px !important;
 }
 
 /********************************/
@@ -372,3 +373,4 @@ input:not([type="submit"]) {
 div#maxw form#ssform div#header div#nav div.Box ul li a {
   color: #3B4A4A !important;
 }
+
