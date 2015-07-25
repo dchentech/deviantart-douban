@@ -1,6 +1,6 @@
-deviantart-douban
+deviantart-douban (已废弃)
 ======================
-豆瓣网站非官方仿deviantART界面风格CSS美化文件(因豆瓣网站 CSS 更新, 功能早已失效, 仅做存档使用)
+豆瓣网站非官方仿deviantART界面风格CSS美化文件
 
 ![screentshot](https://raw.githubusercontent.com/mvj3/deviantart-douban/master/screenshot.jpg)
 
@@ -13,3 +13,7 @@ deviantart-douban
 
 ### 其他
 另外，以前的文档和截图见第一版和第二版，两者以后都不作更新。
+
+
+### 注明
+* 20150725 因豆瓣网站 CSS 更新, 功能早已失效, 仅做存档使用
