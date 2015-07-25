@@ -1,0 +1,355 @@
+/*
+ * *  Unofficial douban.com skin
+ * *
+ * * Author : mvj3
+ * * Created : 15th Sep, 2007
+ * * Updated : 23th Jun, 2009
+ * * Version :2.2
+ * * Website : http://code.google.com/p/deviantart-douban/
+ * * Description : Skins douban.com with deviantART appearance.
+ * * Usage : Use with Stylish Firefox extension (http://userstyles.org/) or copy to your Firefox userContent.css file
+ * */
+
+@-moz-document domain("douban.com") {
+
+  /*replace logo and emos*/
+
+  .logo {
+    background:url(http://deviantart-douban.googlecode.com/files/deviantart-douban.png) !important;
+    width:0 !important;
+    padding:17px 82px !important;
+  }
+  a img[src="http://otho.douban.com/pics/douban9.gif"]{
+    background:url(http://deviantart-douban.googlecode.com/files/douban9.png) !important;
+    width:0 !important;
+    height:0 !important;
+    padding:25px 45px !important;
+  }
+  img[src="http://otho.douban.com/pics/new1.gif"] {
+    width:0 !important;
+  }
+  .quote,.quote span.inq {
+    background:none !important;
+  }
+  img[src="http://otho.douban.com/pics/sts.gif"] {
+    background:url(http://deviantart-douban.googlecode.com/files/sts.gif) !important;
+    width:0 !important;
+    padding:6px 9px 6px 6px !important;
+  }
+  img[src="http://otho.douban.com/pics/new_menu.gif"] {
+    background:url(http://.gif) !important;
+    width:0 !important;
+  }
+  img[src="http://www.douban.com/pics/arrow2.gif"] {
+    background:url(http://deviantart-douban.googlecode.com/files/top-login.3.gif) !important;
+
+  }
+  img[src="http://www.douban.com/pics/arrow3.gif"] {
+    background:url(http://deviantart-douban.googlecode.com/files/top-login.3.gif) !important;
+
+  }
+
+
+  /*text background*/
+  /*body {
+   * background:#76827B !important;
+   * }*/
+#maxw {
+  background:#4D625D !important;
+}
+#tableb ,#tablerb ,#table ,#tabler ,#in_tablem ,#tablerm ,#tablem{
+  background:url(http://deviantart-douban.googlecode.com/files/div.gif) repeat-y !important;
+  -moz-border-radius: 5px !important;/*wuxiao*/
+  color:#3B4A4A !important;
+}
+
+/*text area*/
+table {
+  -moz-border-radius: 5px !important;
+}
+textarea {
+
+
+}
+
+/*navigate bar*/
+#subnav{
+  background:#374341 !important;
+}
+#header {
+  background: #485856 !important;
+  color:white !important;
+  padding:5px 5px 0px 5px !important;
+  -moz-border-radius: 5px ! important;
+}
+#status {
+  background:#374341 !important;
+  -moz-border-radius-topleft: 5px !important;
+  -moz-border-radius-topright: 5px !important;
+}
+#status a ,#status span {
+  color:#96A19B !important;
+}
+
+/*navigate font*/
+#nav a {
+  color:#EEE8E4 !important;
+  height:12px !important;
+  -moz-border-radius-topleft: 5px !important;
+  -moz-border-radius-topright: 5px !important;
+}
+#nav a:hover{
+
+  text-decoration:none !important;
+}
+#nav a.now span {
+  background:#374341 !important;
+
+  margin:0px -10px 0px 0px !important;
+}
+
+/*search bar*/
+#searbar span.submit {
+  background:transparent  url(http://deviantart-douban.googlecode.com/files/top-search.gif) repeat  scroll  0px -60px!important;
+}
+
+#searbar span.submit a.butt {
+  background:none !important;
+}
+#dsearch a ,.butt {
+  color:#96A19B !important;
+
+}
+/*search area*/
+#page_focus {
+  border-color:transparent !important;
+  background:url(http://deviantart-douban.googlecode.com/files/top-search.gif) repeat  scroll   -1px  0px !important;
+  color:transparent !important;
+  height:16px !important;
+  width:155px !important;
+  padding:5px 9px 0px 5px !important;
+  margin: 0 0 0 0px !important;
+}
+#page_focus:focus {
+  background:url(http://deviantart-douban.googlecode.com/files/top-search.gif) scroll 0 -30px !important;
+  color:#233231 !important;
+  height:16px !important;
+  width:173px !important;
+  padding: 2px 0 2px 0 !important;
+  margin: 0 !important;
+}
+img[src="http://otho.douban.com/pics/down.gif"] {
+  background: url(http://deviantart-douban.googlecode.com/files/top-search.gif) scroll 30px 90px !important;
+  width:0 !important;
+  padding:13px 15px 12px 15px !important;
+}
+img[src="http://otho.douban.com/pics/up.gif"] {
+  background: url(http://deviantart-douban.googlecode.com/files/top-search.gif) scroll 30px 90px!important;
+  width:0 !important;
+  padding:6.5px 7.5px 6px 7.5px !important;
+}
+
+
+
+/*font scraps*/
+/*.li.mbtr a: {
+ * color: #3B5A4A !important;
+ * }*/
+
+a:hover {
+  background:none !important;
+}
+
+
+h1,h2,h3,h4,h5,h6,.tablecc .pl ,#mycontact .pl .gtleft ,.pl .pl ,.olt .pl ,#tabler .pl ,.mbt .pl ,obmo .pl ,.sbjtd .pl ,.indent .pl  ,#tablerm .pl ,#in_table .pl ,.clst .pl ,.cluster-preview span ,#display {color:#414D4C !important;}
+h2 {background:#D5E2DE !important;-moz-border-radius: 5px !important;
+  padding:5px !important;}
+h3 {
+  background:url(http://deviantart-douban.googlecode.com/files/bg-bubblb3.gif) !important;
+  margin:0px !important;
+  -moz-border-radius: 5px !important;
+}
+h4 {background:#D5E2DE !important;-moz-border-radius: 5px !important;margin-left:-5px !important;padding-left:3px !important}
+body {
+  background:#76827B !important;
+}
+textarea {
+  background:#F0FBF8 !important;
+}
+textarea:focus {
+  border:4px solid #D3E0DC !important;
+}
+table {
+  -moz-border-radius: 5px !important;
+}
+
+/*right*/
+.indent ,.sbjtd {
+  background-color:#D3E0DC !important;
+  -moz-border-radius: 5px !important;
+  margin:0px 0px 5px 0px !important;
+}
+.tablecc {
+  background:#D3E0DC !important;
+  color:#547062 !important;
+  -moz-border-radius: 5px !important;
+}
+.tablelt ,.tablect ,.tablert ,.tablelc ,.tablerc ,.tablelb ,.tablecb ,.tablerb {background:#E7F0EC !important;
+}
+.mbtrmini {
+  background: transparent !important;
+}
+
+
+
+/*foot*/
+#maxw:after {
+  /*content:"Current skin:'deviantART Douban' by mvj3,-- send me a douyou or comment the topic if you find a bug or want something changed."!important;*/
+  display: block !important;
+  color: #A7B094 !important;
+  text-align:center !important;
+}
+.fdiv {
+  background: #485856 !important;
+  color:#739CA3 !important;
+  border-top: 0px !important;
+  padding:6px 4px 0px 4px !important;
+  -moz-border-radius: 5px !important;
+}
+.fspl {
+  color: #98A8A3 !important;
+}
+.ul {
+  border-bottom: 0px !important;
+}
+
+/*scraps*/
+.fdiv a {
+  color:#879B9B !important;
+}
+.zbar ,.zbar span.now {
+  background:#D5E2DE !important;
+  margin-right:0px !important;
+}
+.gact ,.gact a:link ,a.gact:link{
+  border:0px !important;
+  background:#D5E2DE !important;
+  -moz-border-radius: 5px ! important;
+  padding:2px !important;
+}
+a.redbutt span {
+  color:#6C8232 !important;
+  background:#DEEAC3 url(http://pouringthemilkshake.org/images/douban/redbutt.gif) !important;
+  margin:0px -7px 0px -2px !important;
+}
+input:not([type="submit"]) {
+  background: #899B91 !important;
+  color:#434341 !important;
+}
+
+/**********************************/
+/*location background color fixes*/
+#in_tables, #tablers ,#in_tablen ,#tablern {
+  background: #E7F0EC !important;
+}
+
+/********************************/
+.submit ,.butt ,.j a_search_text greyinput {
+  background:black !important;
+}
+#subnav{
+  background:#374341 !important;
+}
+
+#status {
+  background:#374341 !important;
+  -moz-border-radius-topleft: 5px !important;
+  -moz-border-radius-topright: 5px !important;
+}
+#status a ,#status span {
+  color:#96A19B !important;
+}
+
+
+/*group search
+ * .j a_search_text {
+ * background:#899B91 !important;
+ * }*/
+
+.xbar div ,.xbar span ,.now span ,.zbar div {
+  background:url(http://deviantart-douban.googlecode.com/files/topicbar.gif) !important;
+  margin-left:0  !important;
+}
+}
+
+
+
+
+@-moz-document url-prefix(http://9.douban.com/){
+  body ,.mt {
+    background:url(http://deviantart-douban.googlecode.com/files/div.gif) repeat-y !important;
+    -moz-border-radius: 5px ! important;/*wuxiao*/
+    color:#3B4A4A !important;
+  }
+  .nt-spanel {
+    background:#4F605E !important;
+    -moz-border-radius: 5px !important;
+  }
+  .nt-mmpr .pl{
+    color:#89988E !important;
+  }
+  .ninetaps h1{
+    background:#374341 !important;
+    -moz-border-radius: 5px !important;
+  }
+  .mmp a:link ,.a:link {
+    color:white !important;
+    text-decoration:none;
+  }
+  .nt-mmpr a:link ,h1 ,pl ,.pl span ,.nt-mmpr span{
+    color:#899B91 !important;
+    text-decoration:none;
+  }
+  /*left*/
+  .pl {
+    color:#438EB7 !important;
+  }
+  .mmp {
+    color: #4C5D5A !important;
+  }
+  .spanel {
+    border-bottom:none !important;
+    -moz-border-radius: 5px !important;
+  }
+  .act {
+    color:#374341 !important;
+    background:#899B91 !important;
+    padding:0px 3px 3px 0px !important;
+    border-bottom:1px solid #899B91 !important;
+    border-right:1px solid #899B91 !important;
+  }
+  .act a {
+    color:#414D4C !important;
+  }
+  .act:hover {
+    border-bottom:1px solid #899B91 !important;
+    border-right:1px solid #899B91 !important;
+  }
+}
+
+@-moz-document url-prefix(http://www.douban.com/plaza/){
+  #maxw p {background:#D6DED4 !important;
+    -moz-border-radius: 2px !important;
+  }
+}
+/*@-moz-document domain("googlesyndication.com") {
+ * #aus {
+ * display:none !important;
+ * }
+ * }*/
+
+
+/*Dropdown menu*/
+div#maxw form#ssform div#header div#nav div.Box ul li a {
+  color: #3B4A4A !important;
+}
